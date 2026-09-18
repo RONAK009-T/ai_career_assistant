@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment Variables & Local Data
+.env
+data/*.db
+data/app.db
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
